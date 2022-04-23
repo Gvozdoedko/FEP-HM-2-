@@ -6,10 +6,8 @@ const multOfNum = firstNumber * secondNumber;
 const divOfNum = firstNumber / secondNumber;
 
 
-
-
-alert('Calculations are finished!');
-alert('Sum: ' + firstNumber + ' + ' + secondNumber + " = " + sumOfNum);
-alert('Diff: ' + firstNumber + ' - ' + secondNumber + " = " + diffOfNum);
-alert('Multi: ' + firstNumber + ' * ' + secondNumber + " = " + multOfNum);
-alert('Div: ' + firstNumber + ' / ' + secondNumber + " = " + divOfNum);
+alert(`Calculations are finished!
+Sum:  ${firstNumber} + ${secondNumber}  = ${sumOfNum}
+Diff: ${firstNumber} - ${secondNumber}  = ${diffOfNum}
+Multi: ${firstNumber} * ${secondNumber}  = ${multOfNum}
+Div: ${firstNumber} / ${secondNumber}  = ${diffOfNum}`);
